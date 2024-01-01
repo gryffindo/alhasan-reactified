@@ -1,0 +1,35 @@
+#skills {
+	margin-bottom: -50px;
+}
+
+.wrapper {
+	align-items: center;
+	background-color: #2a2a2a18;
+	box-shadow: 0 0 1.2rem black;
+	width: 600px;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	margin-top: 7rem;
+	margin: 0 30px;
+// margin-bottom: 5rem;
+}
+.skill-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.skill_box {
+	margin-left: 2rem;
+	max-width: 350px;
+	margin-bottom: 2rem;
+	margin-top: -2rem;
+}
+@media only screen and (min-width: 1199.98px) {
+	.skill_box {
+		margin-left: 5rem;
+	}
+	.wrapper {
+		margin-top: 8rem;
+	}
+}

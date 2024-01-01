@@ -1,5 +1,4 @@
 import React from 'react'
-import Ogo from './Image'
 
 function Hero () {
 	return (
@@ -10,21 +9,23 @@ function Hero () {
 					<span>I</span><span>'m</span> <span className="sakib">Sakib,</span> <br />
 					<span>W</span>
 					<span>e</span>
-					<span>b</span>
-					<span>D</span>
+					<span>b </span>
+					<span> D</span>
 					<span>e</span>
 					<span>v</span>
 					<span>e</span>
 					<span>l</span>
 					<span>o</span>
-					<span>p </span>
-					<span>e </span>
-					<span>r </span>
+					<span>p</span>
+					<span>e</span>
+					<span>r</span>
+					<p className="tt">HTML/CSS/JavaScript/React JS/ C++</p>
 				</h1>
+				
 			</div>
 
-			<div className="sakib_img">
-				<Ogo />
+			<div>
+				<img className="sakib_img" src="/img/sak.jpg" alt="" />
 			</div>
 		</>
 	)

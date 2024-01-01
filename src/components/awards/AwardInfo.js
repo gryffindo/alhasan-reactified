@@ -1,9 +1,9 @@
-import "../../styles/awards.css";
+import "../../styles/awards.scss";
 
 const Info = () => {
   return (
     <>
-      <h1 className="heading">Honors and Awards</h1>
+      <h1 style={{marginTop: "115px"}} className="heading">Honors and Awards</h1>
       <div id="note">
         <p>
           Since, I am a programmer and math lover. I have Some achievements. I
